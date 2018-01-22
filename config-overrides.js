@@ -1,4 +1,4 @@
-const { compose } = require("react-app-rewired");
+const { compose, injectBabelPlugin } = require("react-app-rewired");
 const rewireLess = require("react-app-rewire-less-modules");
 //const rewireLess = require("react-app-rewire-less");
 

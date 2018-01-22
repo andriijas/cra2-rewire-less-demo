@@ -3,10 +3,12 @@
 	"version": "0.1.0",
 	"private": true,
 	"devDependencies": {
+		"babel-plugin-import": "^1.6.3",
 		"react-app-rewire-less-modules": "^1.2.0",
 		"react-app-rewired": "^1.4.0"
 	},
 	"dependencies": {
+		"antd": "^3.1.4",
 		"react": "^16.2.0",
 		"react-dom": "^16.2.0",
 		"react-scripts": "2.0.0-next.9754a231"
@@ -22,6 +24,11 @@
 			"last 2 firefox versions",
 			"last 2 edge versions"
 		],
-		"production": [">1%", "last 4 versions", "Firefox ESR", "not ie < 11"]
+		"production": [
+			">1%",
+			"last 4 versions",
+			"Firefox ESR",
+			"not ie < 11"
+		]
 	}
 }
